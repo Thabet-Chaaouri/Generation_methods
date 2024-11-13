@@ -29,3 +29,5 @@ In Top-K sampling, the K most likely next words are filtered and the probability
 Instead of sampling only from the most likely K words, in Top-p sampling chooses from the smallest possible set of words whose cumulative probability exceeds the probability p. The probability mass is then redistributed among this set of words. This way, the size of the set of words (a.k.a the number of words in the set) can dynamically increase and decrease according to the next word's probability distribution.
 
 Top-p can also be used in combination with Top-K, which can avoid very low ranked words while allowing for some dynamic selection.
+
+### Assisted generation
